@@ -1,7 +1,7 @@
 from abc import ABC,abstractmethod
 import pyswarms as ps
-from model import Epidemiological_model
-from objective_function import ObjectiveFunction
+from business_logic.model import Epidemiological_model
+from business_logic.objective_function import ObjectiveFunction
 from scipy.optimize import differential_evolution
 
 class Metaheuristics(ABC):

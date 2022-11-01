@@ -51,7 +51,7 @@ class Epidemiological_model(ABC):
         plt.xlabel('t')
         plt.legend(self.name_var, shadow=True)
         plt.title(self.name)
-        return plt.show()
+        plt.savefig('model.png')
        
 class SI(Epidemiological_model):
     def __init__(self,vars_initials:list,params_initial:list,name:str='SI',name_var:list=['S','i'],params_est:list=None,N:float =1):

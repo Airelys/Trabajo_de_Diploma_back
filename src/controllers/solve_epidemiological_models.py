@@ -1,14 +1,27 @@
 from flask_restful import Resource
-from flask_jsonpify import jsonify
+from flask import jsonify,send_file,request
 from services.solve_epidemiological_models_service import*
+import json
+from PIL import Image
+from numpy import asarray
 
 class SolveEpidemiologicalModels(Resource):
-    def __init__(self,name,vars_initials,params,params_est,interval_est,t,total_points,method) -> None:
-        self.model = SolveEpidemiologicalModelsService(name,vars_initials,params,params_est,interval_est,t,total_points,method)
-
-    def solve(self):
-        sol,img = self.model.solve_model()
-        return jsonify({'sol':sol,'img':img})
+    def __init__(self) -> None:
+        res = request.get_json()
+        self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+                                                   list(res['vars_initials']),
+                                                   list(res['params']),
+                                                   list(res['params_est']),
+                                                   list(res['interval_est']),
+                                                   int(res['t']),
+                                                   int(res['total_points']),
+                                                   str(res['method']),
+                                                   int(res['N']))
+    
+    def post(self):
+        sol = self.s.solve_model()
+        img = Image.open('model.png')
+        return json.dumps({'sol': sol.tolist(), 'img': asarray(img).tolist()})
         
 
     

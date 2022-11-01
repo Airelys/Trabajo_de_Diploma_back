@@ -1,5 +1,5 @@
 import numpy as np
-from model import Epidemiological_model
+from business_logic.model import Epidemiological_model
 
 class ObjectiveFunction:
     
