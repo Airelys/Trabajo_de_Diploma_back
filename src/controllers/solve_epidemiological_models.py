@@ -8,15 +8,15 @@ from numpy import asarray
 class SolveEpidemiologicalModels(Resource):
     def __init__(self) -> None:
         res = request.get_json()
+        print(res)
         self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
                                                    list(res['vars_initials']),
                                                    list(res['params']),
                                                    list(res['params_est']),
-                                                   list(res['interval_est']),
                                                    int(res['t']),
                                                    int(res['total_points']),
-                                                   str(res['method']),
-                                                   int(res['N']))
+                                                   str(res['method']), int(res['N']))
+        print('aaaaaaaaaaaaaaaaaaaaaaa')
     
     def post(self):
         sol = self.s.solve_model()

@@ -9,12 +9,11 @@ dict = {
 
 
 class SolveEpidemiologicalModelsService:
-    def __init__(self,name_model,vars_initials,params,params_est,interval_est,t,total_points,method,N) -> None:
+    def __init__(self,name_model,vars_initials,params,params_est,t,total_points,method,N) -> None:
         self.name_model = name_model
         self.vars_initials = vars_initials
         self.params = params
         self.params_est = params_est
-        self.interval_est = interval_est
         self.t = t
         self.total_points = total_points
         self.method = method

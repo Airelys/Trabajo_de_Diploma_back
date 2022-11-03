@@ -88,9 +88,11 @@ class SIR(Epidemiological_model):
         i = i/self.N
 
         params_temp = self.params_initial.copy()
-        if(self.params_est!=None):
-            for index,item in enumerate(self.params_est):
-                params_temp[item] = params[index]
+        i = 0
+        for index,item in self.params_est:
+            if item:
+                params_temp[index] = params[i]
+                i+=1
             
         b,y,births,deaths,deaths_i = params_temp
 

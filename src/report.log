@@ -1,0 +1,246 @@
+2022-11-02 23:20:46,821 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-02 23:51:20,375 - werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 23:51:20] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-02 23:51:20,381 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 18, in __init__
+    int(res['N']))
+KeyError: 'N'
+2022-11-02 23:51:20,435 - werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 23:51:20] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-02 23:52:25,963 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-02 23:54:17,928 - werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 23:54:17] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-02 23:54:17,935 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 11, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 1 required positional argument: 'N'
+2022-11-02 23:54:17,940 - werkzeug - INFO - 127.0.0.1 - - [02/Nov/2022 23:54:17] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:00:36,608 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:02:02,940 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:02:02] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:02:25,722 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:02:25] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:02:27,884 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:02:27] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:02:28,061 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:02:28] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:05:17,556 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:05:17] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:05:59,624 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:05:59] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:05:59,972 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:05:59] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:06:00,076 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:06:00] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:06:00,245 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:06:00] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:06:00,409 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:06:00] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:09:37,371 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:09:37] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:11:50,757 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 11, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 1 required positional argument: 'N'
+2022-11-03 00:11:50,771 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:11:50] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:12:02,883 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:13:01,118 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:13:01] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:13:01,127 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 11, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 1 required positional argument: 'N'
+2022-11-03 00:13:01,133 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:13:01] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:15:41,077 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:17:49,691 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:17:49] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:17:49,701 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 12, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 1 required positional argument: 'N'
+2022-11-03 00:17:49,706 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:17:49] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:24:02,648 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:25:36,455 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:25:36] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:25:36,466 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 12, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 2 required positional arguments: 'method' and 'N'
+2022-11-03 00:25:36,474 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:25:36] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:27:03,685 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:27:24,439 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:27:24] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:27:24,455 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 12, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 1 required positional argument: 'N'
+2022-11-03 00:27:24,462 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:27:24] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:28:59,995 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:28:59] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:29:00,016 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 12, in __init__
+    self.s = SolveEpidemiologicalModelsService(str(res['model_name']),
+TypeError: __init__() missing 1 required positional argument: 'N'
+2022-11-03 00:29:00,020 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:29:00] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:29:29,154 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:30:23,888 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:30:23] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:30:23,940 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 22, in post
+    sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\solve_epidemiological_models_service.py", line 24, in solve_model
+    sol = model.numeric_solver([0,self.t],self.params,self.total_points,self.method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 76, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    params_temp[item] = params[index]
+TypeError: list indices must be integers or slices, not dict
+2022-11-03 00:30:24,009 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:30:24] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:33:07,888 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:33:07] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:33:07,901 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 22, in post
+    sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\solve_epidemiological_models_service.py", line 24, in solve_model
+    sol = model.numeric_solver([0,self.t],self.params,self.total_points,self.method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 76, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    params_temp[item] = params[index]
+TypeError: list indices must be integers or slices, not dict
+2022-11-03 00:33:07,907 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:33:07] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:34:36,075 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:34:36] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:34:36,086 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 22, in post
+    sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\solve_epidemiological_models_service.py", line 24, in solve_model
+    sol = model.numeric_solver([0,self.t],self.params,self.total_points,self.method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 76, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    params_temp[item] = params[index]
+TypeError: list indices must be integers or slices, not dict
+2022-11-03 00:34:36,091 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:34:36] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-03 00:48:45,285 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 00:52:16,490 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:52:16] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 00:52:21,803 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:52:21] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
