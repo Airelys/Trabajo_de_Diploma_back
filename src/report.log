@@ -244,3 +244,503 @@ TypeError: list indices must be integers or slices, not dict
 2022-11-03 00:48:45,285 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
 2022-11-03 00:52:16,490 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:52:16] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
 2022-11-03 00:52:21,803 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 00:52:21] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-03 23:04:46,482 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:09:02,277 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:09:02] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:09:02,295 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 11, in __init__
+    self.s = ParameterEstimationService(str(res['model_name']),
+KeyError: 'model_name'
+2022-11-03 23:09:02,357 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:09:02] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:10:01,289 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:11:42,788 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:11:42] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:11:42,797 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 11, in __init__
+    self.s = ParameterEstimationService(str(res['model_name']),
+KeyError: 'model_name'
+2022-11-03 23:11:42,804 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:11:42] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:14:08,506 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:15:31,215 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:15:31] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:15:31,223 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 11, in __init__
+    self.s = ParameterEstimationService(str(res['model_name']),
+KeyError: 'model_name'
+2022-11-03 23:15:31,233 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:15:31] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:19:17,420 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:21:03,843 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:21:03] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:21:03,850 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 11, in __init__
+    self.s = ParameterEstimationService(str(res['model_name']),
+KeyError: 'model_name'
+2022-11-03 23:21:03,856 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:21:03] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:21:50,048 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:23:26,797 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:23:26] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:23:26,807 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 12, in __init__
+    self.s = ParameterEstimationService(str(res['model_name']),
+KeyError: 'model_name'
+2022-11-03 23:23:26,814 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:23:26] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:26:13,939 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:28:26,718 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:28:26] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:28:26,729 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 12, in __init__
+    self.s = ParameterEstimationService(str(res['model_name']),
+KeyError: 'model_name'
+2022-11-03 23:28:26,733 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:28:26] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:37:39,088 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-03 23:39:34,304 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:39:34] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:39:34,315 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 88, in view
+    self = view.view_class(*class_args, **class_kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 25, in __init__
+    int(res['iter']),
+KeyError: 'iter'
+2022-11-03 23:39:34,321 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:39:34] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-03 23:50:26,332 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:50:26] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-03 23:50:26,508 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 51, in solve_model
+    metaheuristic = DifferentialEvolution(model,read(self.path),self.total_points,[self.params_min,self.params_max],
+  File "D:\Trabajo de Diploma\backend\src\business_logic\utils\utils.py", line 4, in read
+    df = pd.read_excel(path,header=None)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 299, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 336, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 1071, in __init__
+    ext = inspect_excel_format(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 949, in inspect_excel_format
+    with get_handle(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\common.py", line 651, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\fakepath\\25.jpg\\n.xlsx'
+2022-11-03 23:50:26,618 - werkzeug - INFO - 127.0.0.1 - - [03/Nov/2022 23:50:26] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 00:34:31,149 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 00:35:56,264 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 00:35:56] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 00:35:56,294 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 51, in solve_model
+    metaheuristic = DifferentialEvolution(model,read(self.path),self.total_points,[self.params_min,self.params_max],
+  File "D:\Trabajo de Diploma\backend\src\business_logic\utils\utils.py", line 4, in read
+    df = pd.read_excel(path,header=None)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 299, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 336, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 1071, in __init__
+    ext = inspect_excel_format(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 949, in inspect_excel_format
+    with get_handle(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\common.py", line 651, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\fakepath\\25.jpg\\n.xlsx'
+2022-11-04 00:35:56,305 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 00:35:56] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 00:50:30,656 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 11:40:52,716 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 11:45:26,902 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:45:26] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 11:45:27,040 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 51, in solve_model
+    metaheuristic = DifferentialEvolution(model,read(self.path),self.total_points,[self.params_min,self.params_max],
+  File "D:\Trabajo de Diploma\backend\src\business_logic\utils\utils.py", line 4, in read
+    df = pd.read_excel(path,header=None)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 299, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 336, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 1071, in __init__
+    ext = inspect_excel_format(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 949, in inspect_excel_format
+    with get_handle(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\common.py", line 651, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\\\Users\\\\Airelys\\\\Desktop'
+2022-11-04 11:45:27,226 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:45:27] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 11:46:05,595 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 11:46:14,558 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:46:14] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 11:46:14,601 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 51, in solve_model
+    metaheuristic = DifferentialEvolution(model,read(self.path),self.total_points,[self.params_min,self.params_max],
+  File "D:\Trabajo de Diploma\backend\src\business_logic\utils\utils.py", line 4, in read
+    df = pd.read_excel(path,header=None)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\util\_decorators.py", line 299, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 336, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 1071, in __init__
+    ext = inspect_excel_format(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\excel\_base.py", line 949, in inspect_excel_format
+    with get_handle(
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\pandas\io\common.py", line 651, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Airelys\\Desktop'
+2022-11-04 11:46:14,613 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:46:14] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 11:48:20,786 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:48:20] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 11:54:33,488 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:54:33] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 11:55:32,350 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 11:56:41,379 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:56:41] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 11:56:44,800 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 53, in solve_model
+    sol_met = metaheuristic.solve()
+  File "D:\Trabajo de Diploma\backend\src\business_logic\algorithms\metaheuristics.py", line 47, in solve
+    sol = differential_evolution(self.objective_function.objective_function,bounds=self.bounds,mutation=self.scaled_factor,recombination=self.crossing_factor)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentialevolution.py", line 296, in differential_evolution
+    with DifferentialEvolutionSolver(func, bounds, args=args,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentialevolution.py", line 541, in __init__
+    raise ValueError('bounds should be a sequence containing '
+ValueError: bounds should be a sequence containing real valued (min, max) pairs for each value in x
+2022-11-04 11:56:44,833 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:56:44] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 11:59:45,591 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:59:45] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 11:59:45,628 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 53, in solve_model
+    sol_met = metaheuristic.solve()
+  File "D:\Trabajo de Diploma\backend\src\business_logic\algorithms\metaheuristics.py", line 47, in solve
+    sol = differential_evolution(self.objective_function.objective_function,bounds=self.bounds,mutation=self.scaled_factor,recombination=self.crossing_factor)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentialevolution.py", line 296, in differential_evolution
+    with DifferentialEvolutionSolver(func, bounds, args=args,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentialevolution.py", line 541, in __init__
+    raise ValueError('bounds should be a sequence containing '
+ValueError: bounds should be a sequence containing real valued (min, max) pairs for each value in x
+2022-11-04 11:59:45,634 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 11:59:45] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 12:08:49,882 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 12:10:01,734 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 12:10:01] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 12:10:02,647 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 60, in solve_model
+    opt = classical.solve()
+  File "D:\Trabajo de Diploma\backend\src\business_logic\algorithms\classical_methods.py", line 14, in solve
+    model = minimize(self.objective_function.objective_function, self.params, method=self.method, options={'disp': True})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_minimize.py", line 612, in minimize
+    return _minimize_cg(fun, x0, args, jac, callback, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 1456, in _minimize_cg
+    sf = _prepare_scalar_function(fun, x0, jac=jac, args=args, epsilon=eps,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 261, in _prepare_scalar_function
+    sf = ScalarFunction(fun, x0, args, grad, hess,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 136, in __init__
+    self._update_fun()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\objective_function.py", line 29, in objective_function
+    yi = np.array(vector_numeric_solve[i])
+IndexError: list index out of range
+2022-11-04 12:10:02,723 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 12:10:02] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 12:27:43,305 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 12:29:52,691 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 12:29:52] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 12:36:38,782 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 12:37:57,119 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 12:37:57] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 12:44:44,886 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 12:45:40,971 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 12:45:40] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 12:45:41,706 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 64, in solve_model
+    opt = classical.solve()
+  File "D:\Trabajo de Diploma\backend\src\business_logic\algorithms\classical_methods.py", line 14, in solve
+    model = minimize(self.objective_function.objective_function, self.params, method=self.method, options={'disp': True})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_minimize.py", line 612, in minimize
+    return _minimize_cg(fun, x0, args, jac, callback, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 1456, in _minimize_cg
+    sf = _prepare_scalar_function(fun, x0, jac=jac, args=args, epsilon=eps,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 261, in _prepare_scalar_function
+    sf = ScalarFunction(fun, x0, args, grad, hess,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 136, in __init__
+    self._update_fun()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\objective_function.py", line 12, in objective_function
+    numeric_solve = self.model.numeric_solver( [0,len(self.data)], params, self.total_points)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 76, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    params_temp[item] = params[index]
+IndexError: index 1 is out of bounds for axis 0 with size 1
+2022-11-04 12:45:41,812 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 12:45:41] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 13:05:00,910 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 13:06:21,064 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 13:06:21] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 13:06:21,800 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 64, in solve_model
+    opt = classical.solve()
+  File "D:\Trabajo de Diploma\backend\src\business_logic\algorithms\classical_methods.py", line 14, in solve
+    model = minimize(self.objective_function.objective_function, self.params, method=self.method, options={'disp': True})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_minimize.py", line 612, in minimize
+    return _minimize_cg(fun, x0, args, jac, callback, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 1456, in _minimize_cg
+    sf = _prepare_scalar_function(fun, x0, jac=jac, args=args, epsilon=eps,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 261, in _prepare_scalar_function
+    sf = ScalarFunction(fun, x0, args, grad, hess,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 136, in __init__
+    self._update_fun()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\objective_function.py", line 12, in objective_function
+    numeric_solve = self.model.numeric_solver( [0,len(self.data)], params, self.total_points)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 76, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    params_temp[item] = params[index]
+IndexError: index 1 is out of bounds for axis 0 with size 1
+2022-11-04 13:06:21,814 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 13:06:21] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 13:07:58,038 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 13:08:53,807 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 13:08:53] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 13:08:54,548 - server - ERROR - Exception on /ParameterEstimation [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\parameter_estimation.py", line 35, in post
+    opt,sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\parameter_estimation_service.py", line 65, in solve_model
+    opt = classical.solve()
+  File "D:\Trabajo de Diploma\backend\src\business_logic\algorithms\classical_methods.py", line 14, in solve
+    model = minimize(self.objective_function.objective_function, self.params, method=self.method, options={'disp': True})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_minimize.py", line 612, in minimize
+    return _minimize_cg(fun, x0, args, jac, callback, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 1456, in _minimize_cg
+    sf = _prepare_scalar_function(fun, x0, jac=jac, args=args, epsilon=eps,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\optimize.py", line 261, in _prepare_scalar_function
+    sf = ScalarFunction(fun, x0, args, grad, hess,
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 136, in __init__
+    self._update_fun()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 226, in _update_fun
+    self._update_fun_impl()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 133, in update_fun
+    self.f = fun_wrapped(self.x)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\optimize\_differentiable_functions.py", line 130, in fun_wrapped
+    return fun(x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\objective_function.py", line 12, in objective_function
+    numeric_solve = self.model.numeric_solver( [0,len(self.data)], params, self.total_points)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 76, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    params_temp[item] = params[index]
+IndexError: index 1 is out of bounds for axis 0 with size 1
+2022-11-04 13:08:54,564 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 13:08:54] "[35m[1mPOST //ParameterEstimation HTTP/1.1[0m" 500 -
+2022-11-04 13:26:02,055 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-04 13:27:07,866 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 13:27:07] "[37mOPTIONS //ParameterEstimation HTTP/1.1[0m" 200 -
+2022-11-04 13:27:10,781 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2022 13:27:10] "[37mPOST //ParameterEstimation HTTP/1.1[0m" 200 -

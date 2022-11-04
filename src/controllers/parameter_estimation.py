@@ -8,11 +8,11 @@ from numpy import asarray
 class ParameterEstimation(Resource):
     def __init__(self) -> None:
         res = request.get_json()
+        print(res)
         self.s = ParameterEstimationService(str(res['model_name']),
                                             list(res['vars_initials']),
                                             list(res['params']),
                                             list(res['params_est']),
-                                            list(res['interval_est']),
                                             int(res['t']),
                                             int(res['total_points']),
                                             str(res['method']),

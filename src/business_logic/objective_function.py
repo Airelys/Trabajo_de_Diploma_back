@@ -25,7 +25,7 @@ class ObjectiveFunction:
             vector_data.append(temp)
 
         sum = 0
-        for i in range(len(vector_data)):
+        for i in range(min(len(vector_data),len(vector_numeric_solve))):
             yi = np.array(vector_numeric_solve[i])
             yie = np.array(vector_data[i])
             transpose = np.transpose(yi - yie)

@@ -12,14 +12,18 @@ dict = {
 
 
 class ParameterEstimationService:
-    def __init__(self,name_model,vars_initials,params,params_est,interval_est,t,total_points,method,N,
+    def __init__(self,model_name,vars_initials,params,params_est,t,total_points,method,N,
                  params_min,params_max,classical_method,metaheuristic,path,iter,particle,cognitive,
                  social,inercia,population,crossing,scaled) -> None:
-        self.name_model = name_model
+        self.model_name = model_name
         self.vars_initials = vars_initials
-        self.params = params
+        self.params_initials = params
+        self.params = []
+        for i,item in enumerate(params_est):
+            if(item):
+                self.params.append(params[i])
+        print(self.params)
         self.params_est = params_est
-        self.interval_est = interval_est
         self.t = t
         self.total_points = total_points
         self.method = method
@@ -39,10 +43,10 @@ class ParameterEstimationService:
         self.scaled = scaled
 
     def solve_model(self):
-        model = dict[self.name_model](self.vars_initials,self.params,params_est=self.params_est,N=self.N)
+        model = dict[self.model_name](self.vars_initials,self.params_initials,params_est=self.params_est,N=self.N)
         opt = []
-
-        if(self.classical_method!=''and self.metaheuristic!=''):
+        print(self.metaheuristic)
+        if(self.classical_method!='None'and self.metaheuristic!='None'):
             sol_met = []
             if (self.metaheuristic=='PSO'):
                 metaheuristic = PSO(model,read(self.path),self.total_points,[self.params_min,self.params_max],self.iter,self.particle,
@@ -56,7 +60,7 @@ class ParameterEstimationService:
             classical = ClassicalMethods(self.classical_method,model,read(self.path),self.total_points,sol_met)
             opt = classical.solve()
 
-        elif(self.classical_method!=''):
+        elif(self.classical_method!='None'):
             classical = ClassicalMethods(self.classical_method,model,read(self.path),self.total_points,self.params)
             opt = classical.solve()
 

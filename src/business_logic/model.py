@@ -64,8 +64,11 @@ class SI(Epidemiological_model):
 
         params_temp = self.params_initial.copy()
         if(self.params_est!=None):
+            i=0
             for index,item in enumerate(self.params_est):
-                params_temp[item] = params[index]
+                if(item):
+                    params_temp[index] = params[i]
+                    i+=1
 
         b,births,deaths,deaths_i = params_temp
 
@@ -117,8 +120,12 @@ class SIRS(Epidemiological_model):
 
         params_temp = self.params_initial.copy()
         if(self.params_est!=None):
+            i=0
             for index,item in enumerate(self.params_est):
-                params_temp[item] = params[index]
+                if(item):
+                    params_temp[index] = params[i]
+                    i+=1
+
 
         b,d,y,births,deaths,deaths_i = params_temp
         
@@ -144,8 +151,11 @@ class SEIR(Epidemiological_model):
 
         params_temp = self.params_initial.copy()
         if(self.params_est!=None):
+            i=0
             for index,item in enumerate(self.params_est):
-                params_temp[item] = params[index]
+                if(item):
+                    params_temp[index] = params[i]
+                    i+=1
 
         b,el,y,births,deaths,deaths_i = params_temp
 
