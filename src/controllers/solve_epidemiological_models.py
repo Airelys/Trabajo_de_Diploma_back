@@ -16,12 +16,11 @@ class SolveEpidemiologicalModels(Resource):
                                                    int(res['t']),
                                                    int(res['total_points']),
                                                    str(res['method']), int(res['N']))
-        print('aaaaaaaaaaaaaaaaaaaaaaa')
     
     def post(self):
         sol = self.s.solve_model()
         img = Image.open('model.png')
-        return json.dumps({'sol': sol.tolist(), 'img': asarray(img).tolist()})
+        return json.dumps({'sol': sol, 'img': asarray(img).tolist()})
         
 
     
