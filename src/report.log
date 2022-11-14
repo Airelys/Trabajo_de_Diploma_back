@@ -1922,3 +1922,628 @@ Traceback (most recent call last):
     for index,item in self.params_est:
 TypeError: cannot unpack non-iterable bool object
 2022-11-10 16:07:07,613 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:07:07] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-10 16:07:40,275 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-10 16:08:21,958 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:08:21] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:08:23,105 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:08:23] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:11:27,566 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:11:27] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:11:28,521 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:11:28] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:14:32,687 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:14:32] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:14:33,627 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:14:33] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:17:15,648 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:17:15] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:17:16,627 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:17:16] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:18:34,793 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:18:34] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:18:35,754 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:18:35] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:24:31,144 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:24:31] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-10 16:24:32,063 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2022 16:24:32] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 17:57:21,966 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 17:59:55,554 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 17:59:55] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 17:59:57,072 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 17:59:57] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:02:21,980 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:02:21] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:02:22,690 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:02:22] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:08:11,079 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:08:11] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:08:11,853 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:08:11] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:15:09,840 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 18:15:55,910 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:15:55] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:15:56,928 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:15:56] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:27:36,579 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:27:36] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:27:37,422 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:27:37] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:37:44,969 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:37:44] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:37:45,709 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:37:45] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:42:55,639 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:42:55] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:46:23,284 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 18:46:30,512 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 18:46:30] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 18:59:34,061 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 19:00:00,082 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:00:00] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:02:50,784 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 19:03:08,491 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:03:08] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:04:00,862 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:04:00] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:05:57,456 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 19:06:02,865 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:06:02] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:07:25,801 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:07:25] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:07:47,228 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:07:47] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:08:17,840 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 19:08:24,814 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:08:24] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:09:00,868 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 19:09:05,393 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:09:05] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:33:31,959 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 19:33:37,707 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:33:37] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:34:35,586 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:34:35] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:34:36,365 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:34:36] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:36:31,360 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:36:31] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:38:37,756 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:38:37] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 19:38:38,505 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 19:38:38] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:33:05,559 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:33:05] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:35:39,611 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 21:35:45,664 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:35:45] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:36:04,358 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:36:04] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:36:26,056 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:36:26] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:38:29,585 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 21:38:39,163 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:38:39] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:39:10,628 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:39:10] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:39:51,189 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:39:51] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:40:09,314 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:40:09] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:40:31,386 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:40:31] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:40:54,954 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:40:54] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:41:26,597 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:41:26] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:41:40,159 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:41:40] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:41:55,530 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:41:55] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:42:13,061 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:42:13] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 21:42:29,045 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 21:42:29] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:07:30,321 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:07:39,263 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 24, in post
+    os.remove("model.png")
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'model.png'
+2022-11-12 22:07:39,269 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:07:39] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-12 22:08:26,992 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:08:32,444 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:08:32] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:08:57,611 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:08:57] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:33:22,996 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:34:20,189 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:34:20] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:34:20,614 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:34:20] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:35:15,933 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:35:15] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:36:16,952 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:36:25,472 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 29, in post
+    image.closed()
+TypeError: 'bool' object is not callable
+2022-11-12 22:36:25,478 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:36:25] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-12 22:37:05,185 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:37:09,428 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:37:09] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:38:40,112 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:38:45,170 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 21, in post
+    sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\solve_epidemiological_models_service.py", line 25, in solve_model
+    img = model.print_numeric_solve([0,self.t],self.params,self.total_points,self.method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 84, in print_numeric_solve
+    return super().print_numeric_solve(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 55, in print_numeric_solve
+    plt.show()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\pyplot.py", line 353, in show
+    return _backend_mod.show(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\backend_bases.py", line 3544, in show
+    cls.mainloop()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\backends\backend_qt5.py", line 1037, in mainloop
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\signal.py", line 47, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-11-12 22:38:45,495 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:38:45] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-12 22:39:30,984 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:39:36,754 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 21, in post
+    sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\solve_epidemiological_models_service.py", line 25, in solve_model
+    img = model.print_numeric_solve([0,self.t],self.params,self.total_points,self.method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 84, in print_numeric_solve
+    return super().print_numeric_solve(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 54, in print_numeric_solve
+    plt.show()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\pyplot.py", line 353, in show
+    return _backend_mod.show(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\backend_bases.py", line 3544, in show
+    cls.mainloop()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\backends\backend_qt5.py", line 1037, in mainloop
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\signal.py", line 47, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2022-11-12 22:39:36,767 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:39:36] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-12 22:39:59,147 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:40:06,494 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:40:06] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:42:52,536 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-12 22:42:56,218 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:42:56] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:51:33,946 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:51:33] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:51:34,177 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:51:34] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:55:53,247 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:55:53] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:55:53,467 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:55:53] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:58:21,092 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:58:21] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 22:58:21,498 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 22:58:21] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 23:00:05,278 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 23:00:05] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 23:00:05,479 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 23:00:05] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 23:07:00,144 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 23:07:00] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 23:07:00,357 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 23:07:00] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 23:59:22,767 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 23:59:22] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-12 23:59:23,062 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2022 23:59:23] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:08:14,327 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:08:14] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:08:14,596 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:08:14] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:16:11,491 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:16:11] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:16:11,735 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:16:11] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:24:41,216 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:24:41] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:24:41,496 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:24:41] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:41:02,948 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:41:02] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:41:03,234 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:41:03] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:43:30,784 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:43:30] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:43:31,069 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:43:31] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:44:58,005 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:44:58] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:44:58,286 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:44:58] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:48:09,085 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:48:09] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:48:09,387 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:48:09] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:50:05,537 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:50:05] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:50:05,849 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:50:05] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:56:55,780 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:56:55] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 00:56:56,075 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 00:56:56] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 01:16:29,446 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 01:16:29] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 01:16:29,751 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 01:16:29] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 01:22:11,685 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 01:22:11] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 01:22:11,976 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 01:22:11] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:37:19,591 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 09:38:23,934 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:38:23] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:38:24,471 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:38:24] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:43:44,711 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:43:44] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:43:44,991 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:43:44] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:51:18,097 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:51:18] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:51:18,388 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:51:18] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:59:34,228 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:59:34] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 09:59:34,500 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 09:59:34] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:02:18,129 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:02:18] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:02:18,406 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:02:18] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:17:21,090 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 10:18:05,712 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:18:05] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:18:06,317 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:18:06] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:21:18,231 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:21:18] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:21:18,591 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:21:18] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:26:24,146 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:26:24] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 10:26:24,270 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 10:26:24] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:09:21,479 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:09:21] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:09:21,620 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:09:21] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:11:26,659 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:11:26] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:11:26,799 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:11:26] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:27:27,013 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:27:27] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:28:37,855 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:28:42,045 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 30, in post
+    return json.dumps({'sol': sol, 'img': content_bytes})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 11:28:42,161 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:28:42] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 11:29:51,539 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:29:55,617 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 29, in post
+    return json.dumps({'sol': sol, 'img': asarray(content_bytes).tolist()})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 11:29:55,646 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:29:55] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 11:30:34,383 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:30:38,842 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 29, in post
+    return json.dumps({'sol': sol, 'img': content_bytes.tolist()})
+AttributeError: 'bytes' object has no attribute 'tolist'
+2022-11-13 11:30:38,850 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:30:38] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 11:35:50,043 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:35:54,465 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:35:54] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:37:00,307 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:37:00] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:37:00,466 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:37:00] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:45:56,271 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:45:59,934 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 29, in post
+    return json.dumps({'sol': sol, 'img': content_bytes})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 11:45:59,942 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:45:59] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 11:49:13,066 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:49:15,760 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:49:15] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:56:45,579 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 11:56:50,630 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:56:50] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:59:59,589 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:59:59] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 11:59:59,726 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 11:59:59] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 12:03:35,822 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 12:03:35] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 12:03:35,937 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 12:03:35] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 12:06:11,767 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 12:06:11] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 12:06:11,892 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 12:06:11] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 13:57:10,893 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 13:57:20,693 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 13:57:20] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 13:59:33,226 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 13:59:33] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 13:59:33,344 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 13:59:33] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:07:23,668 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:07:23] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:07:23,786 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:07:23] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:13:02,581 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:13:02] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:13:02,702 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:13:02] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:15:04,897 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 14:15:56,356 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:15:56] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:15:56,563 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:15:56] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:17:10,373 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:17:10] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:18:12,763 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 14:18:17,736 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:18:17] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:18:29,775 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 14:18:29] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 14:19:07,636 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 14:25:07,105 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 15:37:53,372 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 15:37:53] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 15:43:08,685 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 15:43:50,882 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 15:43:50] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 15:43:51,333 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 15:43:51] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 15:56:52,513 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 15:57:01,273 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 15:57:01] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 15:59:50,484 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 15:59:50] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:00:35,834 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:00:39,537 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 28, in post
+    content_bytes = content_bytes
+UnboundLocalError: local variable 'content_bytes' referenced before assignment
+2022-11-13 16:00:39,660 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:00:39] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 16:01:25,072 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:01:29,501 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:01:29] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:02:53,655 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:02:53] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:02:54,102 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:02:54] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:05:46,789 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:06:32,221 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:06:32] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:06:32,596 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:06:32] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:07:52,060 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:07:52] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:09:16,084 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:09:16] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:09:16,300 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:09:16] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:13:38,948 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:13:38] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:13:39,211 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:13:39] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:20:39,738 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:20:43,857 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 26, in post
+    img = img.resize(300,300)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\PIL\Image.py", line 1891, in resize
+    raise ValueError(
+ValueError: Unknown resampling filter (300). Use Image.NEAREST (0), Image.LANCZOS (1), Image.BILINEAR (2), Image.BICUBIC (3), Image.BOX (4) or Image.HAMMING (5)
+2022-11-13 16:20:43,867 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:20:43] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 16:21:30,460 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:21:35,405 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 41, in post
+    return json.dumps({'sol': sol, 'img': byte_array})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 16:21:35,493 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:21:35] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 16:22:21,810 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 41, in post
+    return json.dumps({'sol': sol, 'img': data_url})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 16:22:21,816 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:22:21] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 16:22:35,097 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:22:38,331 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:22:38] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:25:22,428 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:25:22] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:25:22,729 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:25:22] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:37:01,903 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:37:01] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:39:39,309 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:39:46,288 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:39:46] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:40:34,728 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:40:38,594 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:40:38] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 16:45:24,236 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:45:34,992 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 24, in post
+    with open("img.png", "rb") as image:
+FileNotFoundError: [Errno 2] No such file or directory: 'img.png'
+2022-11-13 16:45:34,999 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:45:34] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 16:46:08,494 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:46:38,595 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 37, in post
+    return json.dumps({'sol': sol, 'img': b})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytearray is not JSON serializable
+2022-11-13 16:46:38,605 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:46:38] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 16:50:58,358 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 16:51:07,211 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 16:51:07] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:00:56,512 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 17:01:01,420 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:01:01] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:23:43,222 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 17:23:47,429 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:23:47] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:29:58,534 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:29:58] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:29:58,863 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:29:58] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:34:53,544 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:34:53] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:34:54,100 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:34:54] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 17:44:43,855 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 17:44:48,749 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 30, in post
+    return json.dumps({'sol': sol, 'img': b64_string})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 17:44:48,756 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 17:44:48] "[35m[1mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 18:30:15,469 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:30:15] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:30:15,829 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 30, in post
+    return json.dumps({'sol': sol, 'img': str(b64_string)})
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bytes is not JSON serializable
+2022-11-13 18:30:15,834 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:30:15] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 18:31:18,417 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 18:31:25,416 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:31:25] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:31:25,451 - server - ERROR - Exception on /SolveEpidemiologicalModels [POST]
+Traceback (most recent call last):
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\Trabajo de Diploma\backend\src\controllers\solve_epidemiological_models.py", line 21, in post
+    sol = self.s.solve_model()
+  File "D:\Trabajo de Diploma\backend\src\services\solve_epidemiological_models_service.py", line 24, in solve_model
+    sol = model.numeric_solver([0,self.t],self.params,self.total_points,self.method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 72, in numeric_solver
+    return super().numeric_solver(t_interval,params,points,method)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 34, in numeric_solver
+    sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 542, in solve_ivp
+    solver = method(fun, t0, y0, tf, vectorized=vectorized, **options)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\rk.py", line 94, in __init__
+    self.f = self.fun(self.t, self.y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 138, in fun
+    return self.fun_single(t, y)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\base.py", line 20, in fun_wrapped
+    return np.asarray(fun(t, y), dtype=dtype)
+  File "C:\Users\Airelys\AppData\Local\Programs\Python\Python39\lib\site-packages\scipy\integrate\_ivp\ivp.py", line 514, in <lambda>
+    fun = lambda t, x, fun=fun: fun(t, x, *args)
+  File "D:\Trabajo de Diploma\backend\src\business_logic\model.py", line 68, in model
+    return [births*s-1*b*s*i-deaths*s,
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2022-11-13 18:31:25,518 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:31:25] "[35m[1mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 500 -
+2022-11-13 18:31:41,960 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 18:32:29,617 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:32:29] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:32:30,101 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:32:30] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:35:55,804 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:35:55] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:35:56,092 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:35:56] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:40:56,962 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:40:56] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:40:57,287 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:40:57] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:42:13,316 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:42:13] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:57:21,488 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 18:57:26,450 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:57:26] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 18:58:38,830 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 18:58:41,820 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 18:58:41] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 19:00:33,763 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 19:00:38,685 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 19:00:38] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 19:02:38,422 - werkzeug - INFO -  * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+2022-11-13 19:02:53,847 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 19:02:53] "[37mPOST /SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 19:04:15,231 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 19:04:15] "[37mOPTIONS //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -
+2022-11-13 19:04:15,512 - werkzeug - INFO - 127.0.0.1 - - [13/Nov/2022 19:04:15] "[37mPOST //SolveEpidemiologicalModels HTTP/1.1[0m" 200 -

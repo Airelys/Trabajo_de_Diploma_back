@@ -33,5 +33,11 @@ class ParameterEstimation(Resource):
     
     def post(self):
         opt,sol = self.s.solve_model()
-        img = Image.open('model.png')
+        b=[]
+        with open("model.png", "rb") as image:
+            f = image.read()
+            b = bytearray(f)
+        import os
+        os.remove("model.png")
+        
         return json.dumps({'opt': opt.tolist(), 'sol': sol.tolist(), 'img': asarray(img).tolist()})
