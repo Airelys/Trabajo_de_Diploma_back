@@ -58,6 +58,7 @@ class SI(Epidemiological_model):
         params_temp = params
 
         if(any( item for item in self.params_est)):
+            params_temp = self.params_initial.copy()
             i=0
             for index,item in enumerate(self.params_est):
                 if(item):

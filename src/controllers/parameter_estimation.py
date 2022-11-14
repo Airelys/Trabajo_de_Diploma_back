@@ -1,3 +1,4 @@
+import base64
 from flask_restful import Resource
 from flask import jsonify,send_file,request
 from services.parameter_estimation_service import*
@@ -33,11 +34,11 @@ class ParameterEstimation(Resource):
     
     def post(self):
         opt,sol = self.s.solve_model()
-        b=[]
-        with open("model.png", "rb") as image:
-            f = image.read()
-            b = bytearray(f)
+        
+        with open("model.png", "rb") as img_file:
+            b64_string = base64.b64encode(img_file.read())
+        
         import os
         os.remove("model.png")
         
-        return json.dumps({'opt': opt.tolist(), 'sol': sol.tolist(), 'img': asarray(img).tolist()})
+        return json.dumps({'opt': opt.tolist(), 'sol': sol.tolist(), 'img': str(b64_string)[2:-1]})
