@@ -5,6 +5,7 @@ from json import dumps
 from flask_jsonpify import jsonify
 from controllers.solve_epidemiological_models import *
 from controllers.parameter_estimation import *
+from controllers.interval_analysis import *
 
 app = Flask(__name__)
 api = Api(app)
@@ -17,7 +18,9 @@ def home():
 
 api.add_resource(SolveEpidemiologicalModels, '/SolveEpidemiologicalModels')
 api.add_resource(ParameterEstimation, '/ParameterEstimation')
+api.add_resource(IntervalAnalysis, '/IntervalAnalysis')
+
 
 
 if __name__ == '__main__':
-   app.run(port=8000)
+   app.run(port=5000)

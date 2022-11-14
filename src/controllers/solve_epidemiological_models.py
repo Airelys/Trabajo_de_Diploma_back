@@ -24,4 +24,4 @@ class SolveEpidemiologicalModels(Resource):
         return json.dumps({'sol': sol.tolist(), 'img': asarray(img).tolist()})
         
 
-    
+#bool para intervalos
