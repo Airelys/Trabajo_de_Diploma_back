@@ -36,25 +36,18 @@ class Epidemiological_model(ABC):
         t0,tf = t_interval
         t = np.linspace(t0,tf,points)
         z = sol.sol(t)
-
-        return z
-
-    @abstractmethod
-    def print_numeric_solve(self,t_interval:list,params:list,points:int,method:str='RK45'):
-        sol = solve_ivp(self.model, t_interval, self.vars_initials, args=[params], method=method, dense_output=True)
-
-        t0,tf = t_interval
-        t = np.linspace(t0,tf,points)
-        z = sol.sol(t)
-
+        
         plt.plot(t,z.T)
         plt.xlabel('t')
         plt.legend(self.name_var, shadow=True)
         plt.title(self.name)
         plt.savefig('model.png')
+        plt.close()
+
+        return z
        
 class SI(Epidemiological_model):
-    def __init__(self,vars_initials:list,params_initial:list,name:str='SI',name_var:list=['S','i'],params_est:list=None,N:float =1):
+    def __init__(self,vars_initials:list,params_initial:list,name:str='SI',name_var:list=['S','I'],params_est:list=None,N:float =1):
         super().__init__('SI',vars_initials,params_initial,name,name_var,params_est,N)
         
     def model(self,t:float,z:list,params:list)->list:
@@ -62,8 +55,10 @@ class SI(Epidemiological_model):
         s = s/self.N
         i = i/self.N
 
-        params_temp = self.params_initial.copy()
-        if(self.params_est!=None):
+        params_temp = params
+
+        if(any( item for item in self.params_est)):
+            params_temp = self.params_initial.copy()
             i=0
             for index,item in enumerate(self.params_est):
                 if(item):
@@ -79,9 +74,6 @@ class SI(Epidemiological_model):
         
     def numeric_solver(self,t_interval:list,params:list,points:int,method:str='RK45')->list:
         return super().numeric_solver(t_interval,params,points,method)
-
-    def print_numeric_solve(self,t_interval:list,params:list,points:int,method:str='RK45'):
-        return super().print_numeric_solve(t_interval,params,points,method)
     
 class SIR(Epidemiological_model):
     def __init__(self,vars_initials:list,params_initial:list,name:str='SIR',name_var:list=['S','I','R'],params_est:list=None,N:float =1):
@@ -92,12 +84,15 @@ class SIR(Epidemiological_model):
         s = s/self.N
         i = i/self.N
 
-        params_temp = self.params_initial.copy()
-        i = 0
-        for index,item in enumerate(self.params_est):
-            if item:
-                params_temp[index] = params[i]
-                i+=1
+        params_temp = params
+
+        if(any(item for item in self.params_est)):
+            params_temp = self.params_initial.copy()
+            i=0
+            for index,item in enumerate(enumerate(self.params_est)):
+                if(item):
+                    params_temp[index] = params[i]
+                    i+=1
             
         b,y,births,deaths,deaths_i = params_temp
 
@@ -108,9 +103,6 @@ class SIR(Epidemiological_model):
     
     def numeric_solver(self, t_interval: list, params: list, points: int,method:str='RK45')->list:
         return super().numeric_solver(t_interval, params, points,method)
-
-    def print_numeric_solve(self,t_interval:list,params:list,points:int,method:str='RK45'):
-        return super().print_numeric_solve(t_interval,params,points,method)
            
 class SIRS(Epidemiological_model):
     def __init__(self,vars_initials:list,params_initial:list,name:str='SIRS',name_var:list=['S','I','R'],params_est:list=None,N:float =1):
@@ -121,8 +113,10 @@ class SIRS(Epidemiological_model):
         s = s/self.N
         i = i/self.N
 
-        params_temp = self.params_initial.copy()
-        if(self.params_est!=None):
+        params_temp = params
+
+        if(any(item for item in self.params_est)):
+            params_temp = self.params_initial.copy()
             i=0
             for index,item in enumerate(self.params_est):
                 if(item):
@@ -141,8 +135,6 @@ class SIRS(Epidemiological_model):
     def numeric_solver(self,t_interval:list,params:list,points:int,method:str='RK45')->list:
         return super().numeric_solver(t_interval,params,points,method)
 
-    def print_numeric_solve(self,t_interval:list,params:list,points:int,method:str='RK45'):
-        return super().print_numeric_solve(t_interval,params,points,method)
         
 class SEIR(Epidemiological_model):
     def __init__(self,vars_initials:list,params_initial:list,name:str='SEIR',name_var:list=['S','E','I','R'],params_est:list=None,N:float =1):
@@ -153,8 +145,10 @@ class SEIR(Epidemiological_model):
         s = s/self.N
         i = i/self.N
 
-        params_temp = self.params_initial.copy()
-        if(self.params_est!=None):
+        params_temp = params
+
+        if(any(item for item in self.params_est)):
+            params_temp = self.params_initial.copy()
             i=0
             for index,item in enumerate(self.params_est):
                 if(item):
@@ -171,6 +165,7 @@ class SEIR(Epidemiological_model):
     
     def numeric_solver(self,t_interval:list,params:list,points:int,method:str='RK45')->list:
         return super().numeric_solver(t_interval,params,points,method)
+
         
     def print_numeric_solve(self,t_interval:list,params:list,points:int,method:str='RK45'):
         return super().print_numeric_solve(t_interval,params,points,method)

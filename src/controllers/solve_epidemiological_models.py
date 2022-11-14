@@ -2,8 +2,8 @@ from flask_restful import Resource
 from flask import jsonify,send_file,request
 from services.solve_epidemiological_models_service import*
 import json
-from PIL import Image
-from numpy import asarray
+import base64
+import cv2
 
 class SolveEpidemiologicalModels(Resource):
     def __init__(self) -> None:
@@ -16,12 +16,18 @@ class SolveEpidemiologicalModels(Resource):
                                                    int(res['t']),
                                                    int(res['total_points']),
                                                    str(res['method']), int(res['N']))
-        print('aaaaaaaaaaaaaaaaaaaaaaa')
     
     def post(self):
         sol = self.s.solve_model()
-        img = Image.open('model.png')
-        return json.dumps({'sol': sol.tolist(), 'img': asarray(img).tolist()})
+
+        with open("model.png", "rb") as img_file:
+            b64_string = base64.b64encode(img_file.read())
+            print(b64_string)
+        
+        import os
+        os.remove("model.png")
+
+        return json.dumps({'sol': sol, 'img': str(b64_string)[2:-1]})
         
 
 #bool para intervalos

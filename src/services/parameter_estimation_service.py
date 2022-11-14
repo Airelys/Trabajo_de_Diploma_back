@@ -75,5 +75,13 @@ class ParameterEstimationService:
                 opt = metaheuristic.solve()
                 
         sol = model.numeric_solver([0,self.t],opt,self.total_points,self.method)
-        img = model.print_numeric_solve([0,self.t],opt,self.total_points,self.method)
-        return opt,sol
+
+        sol_new =[]
+
+        for index,item in enumerate(sol[0]):
+            temp = []
+            for element in sol:
+                temp.append(element[index])
+            sol_new.append(temp)
+
+        return opt,sol_new
