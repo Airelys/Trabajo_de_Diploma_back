@@ -71,9 +71,11 @@ class SI(Epidemiological_model):
                     i+=1
 
         b,births,deaths,deaths_i = params_temp
-
+        #print(f'b: {b} {type(b)} ,births: {births} {type(births)},deaths: {deaths} {type(deaths)},deaths_i: {deaths_i} {type(deaths_i)} s: {s} {type(s)},i: {i} {type(i)}')
+        
         return [births*s-1*b*s*i-deaths*s,
           b*s*i-(deaths+deaths_i)*i]
+        
         
     def numeric_solver(self,t_interval:list,params:list,points:int,method:str='RK45')->list:
         return super().numeric_solver(t_interval,params,points,method)
@@ -92,7 +94,7 @@ class SIR(Epidemiological_model):
 
         params_temp = self.params_initial.copy()
         i = 0
-        for index,item in self.params_est:
+        for index,item in enumerate(self.params_est):
             if item:
                 params_temp[index] = params[i]
                 i+=1
@@ -103,6 +105,7 @@ class SIR(Epidemiological_model):
                    b*s*i-y*i-(deaths+deaths_i)*i,
                    y*i-deaths*r]
         
+    
     def numeric_solver(self, t_interval: list, params: list, points: int,method:str='RK45')->list:
         return super().numeric_solver(t_interval, params, points,method)
 
@@ -134,6 +137,7 @@ class SIRS(Epidemiological_model):
                    b*s*i-y*i-(deaths+deaths_i)*i,
                    y*i-d*r-deaths*r]
         
+        
     def numeric_solver(self,t_interval:list,params:list,points:int,method:str='RK45')->list:
         return super().numeric_solver(t_interval,params,points,method)
 
@@ -141,7 +145,7 @@ class SIRS(Epidemiological_model):
         return super().print_numeric_solve(t_interval,params,points,method)
         
 class SEIR(Epidemiological_model):
-    def __init__(self,id:str,vars_initials:list,params_initial:list,name:str='SEIR',name_var:list=['S','E','I','R'],params_est:list=None,N:float =1):
+    def __init__(self,vars_initials:list,params_initial:list,name:str='SEIR',name_var:list=['S','E','I','R'],params_est:list=None,N:float =1):
         super().__init__("SEIR",vars_initials,params_initial,name,name_var,params_est,N)
             
     def model(self,t:float,z:list,params:list)->list:
@@ -164,8 +168,87 @@ class SEIR(Epidemiological_model):
                    el*e-(y+deaths+deaths_i)*i,
                    y*i-deaths*r]
         
+    
     def numeric_solver(self,t_interval:list,params:list,points:int,method:str='RK45')->list:
         return super().numeric_solver(t_interval,params,points,method)
         
     def print_numeric_solve(self,t_interval:list,params:list,points:int,method:str='RK45'):
         return super().print_numeric_solve(t_interval,params,points,method)
+
+
+class SI_interval(SI):
+    def model(self,t:float,z:list,params:list)->list:
+        s,i = z
+        s = s/self.N
+        i = i/self.N
+        
+        params_temp = self.params_initial.copy()
+        #print(f"params_temp {params_temp}")
+        #print(f"params {params}")
+        
+        if(self.params_est!=None):
+            for index,item in enumerate(self.params_est):
+                params_temp[item] = params[index]
+
+        b,births,deaths,deaths_i = params_temp
+
+        return [births*s-1*b*s*i-deaths*s,
+          b*s*i-(deaths+deaths_i)*i]
+        
+        
+class SIR_interval(SIR):
+    def model(self,t:float,z:list,params:list)->list:
+        s,i,r = z
+        s = s/self.N
+        i = i/self.N
+        r = r/self.N
+
+        params_temp = self.params_initial.copy()
+        if(self.params_est!=None):
+            for index,item in enumerate(self.params_est):
+                params_temp[item] = params[index]
+            
+        b,y,births,deaths,deaths_i = params_temp
+
+        return [births*s-1*b*s*i-deaths*s,
+                   b*s*i-y*i-(deaths+deaths_i)*i,
+                   y*i-deaths*r]
+        
+class SIRS_interval(SIRS):
+    def model(self,t:float,z:list,params:list)->list:
+        s,i,r = z
+        s = s/self.N
+        i = i/self.N
+        r = r/self.N
+
+        params_temp = self.params_initial.copy()
+        if(self.params_est!=None):
+            for index,item in enumerate(self.params_est):
+                params_temp[item] = params[index]
+
+        b,d,y,births,deaths,deaths_i = params_temp
+        
+
+        return [births*s-1*b*s*i+d*r-deaths*s,
+                   b*s*i-y*i-(deaths+deaths_i)*i,
+                   y*i-d*r-deaths*r]
+      
+class SEIR_interval(SEIR):
+     def model(self,t:float,z:list,params:list)->list:
+        s,e,i,r = z
+        s = s/self.N
+        i = i/self.N
+        e = e/self.N
+        r = r/self.N
+
+        params_temp = self.params_initial.copy()
+        if(self.params_est!=None):
+            for index,item in enumerate(self.params_est):
+                params_temp[item] = params[index]
+
+        b,el,y,births,deaths,deaths_i = params_temp
+
+        return [births*s-1*b*s*i-deaths*s,
+                   b*s*i-(deaths+el)*e,
+                   el*e-(y+deaths+deaths_i)*i,
+                   y*i-deaths*r]
