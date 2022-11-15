@@ -23,5 +23,12 @@ class SolveEpidemiologicalModelsService:
     def solve_model(self):
         model = dict[self.name_model](vars_initials=self.vars_initials,params_initial=self.params,params_est=self.params_est,N=self.N)
         sol = model.numeric_solver([0,self.t],self.params,self.total_points,self.method)
-        img = model.print_numeric_solve([0,self.t],self.params,self.total_points,self.method)
-        return sol
+        sol_new =[]
+
+        for index,item in enumerate(sol[0]):
+            temp = []
+            for element in sol:
+                temp.append(element[index])
+            sol_new.append(temp)
+
+        return sol_new
